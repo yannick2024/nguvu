@@ -1,0 +1,204 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing:border-box;
+    font-family:"releway",sans-serif;
+}
+body{
+    background-color:#000;
+    color:#fff;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position:fixed;
+
+    height:50px;
+    width:100%;
+    left:0px;
+    right:0px;
+    top:0px;
+    padding: 0px 10px;
+    z-index: 1000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+}
+header .logo a{
+    font:25px;
+    color:rgb(243, 208, 10);
+    font-weight:bolder;
+    text-transform: uppercase;
+    padding:10px;
+}
+header .menu{
+    list-style-type:none;
+    display: flex;
+
+}
+header .menu li a{
+    margin-left:15px;
+    color:#fff;
+    text-transform: capitalize;
+}
+header .menu li #home{
+    color:rgb(243, 208, 10);
+    border-bottom: 1px solid rgb(243, 208, 10);
+}
+.section1{
+    margin-left: 50px;
+    margin-top: 70px;
+    background-color:rgb(243, 208, 10) ;
+    width:300px;
+    height:300px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:200px;
+
+
+
+}
+.section1 .image img{
+    width:300;
+    height: 360px;
+   
+}
+
+.bienvenue{
+    margin-top:100px;
+    margin-left:60px;
+}
+.bienvenue .para1{
+    color:rgba(243, 208, 10,0.5) ;
+    text-transform: uppercase;
+}
+
+.bienvenue .h1{
+    text-transform: capitalize;
+    font-size:60px;
+    font-weight:bolder;
+}
+
+.bienvenue h1 span{
+    color: rgb(243, 208, 10);
+}
+
+.bienvenue .para2{
+    color:rgba(255, 255, 255,0.7);
+    margin-top:10px;
+}
+.bienvenue .menu2{
+    list-style-type:none;
+    display:flex;
+    margin-top:20px;
+}
+.bienvenue .menu2 li a{
+    color:#fff;
+    text-transform: uppercase;
+}
+.bienvenue .menu2 #para1{
+    background-color:rgb(243, 208, 10);
+    padding:5px 10px;
+    border-radius:20px;
+    color:#000;
+    font-weight:bolder;
+    border:1px solid #fff;
+    font-size: 12px;
+}
+.bienvenue .menu2 #para2{
+    background-color:transparent;
+    padding:5px 10px;
+    border-radius:20px;
+    font-weight:bold;
+    border:1px solid #fff;
+    font-size:12px;
+    margin-left:10px;
+}
+.autres{
+    margin-top:50px;
+}
+.autres .image-noire{
+    margin-left:50px;
+}
+.autres .image-noire img{
+    width:300;
+    height: 360px;
+}
+
+.autres .identiter{
+    margin-left: 20px;
+    margin-top:30px;
+}
+.autres .identiter h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size:30px;
+}
+.autres .identiter #parara{
+    margin-top:20px;
+    color:rgba(243, 241, 241,0.7);
+}
+
+.autres .identiter .para11,.para12,.para13,.para14,.para15,.para16,.para17{
+    margin-top:10px;
+    text-transform: capitalize;
+}
+.autres .identiter .para11 span, .para12 span,.para13 span,.para14 span,.para15 span,.para16 span,.para17 span{
+    margin-left:50px;
+    color:#8d8d8d;
+}
+.resume{
+    width:100%;
+    height:100px;
+    margin-top:50px;
+}
+.resume h1{
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color:rgba(255,255,255,0.1);
+    text-align: center;
+}
+.resume p{
+    color:rgba(255,255,255,0.2);
+    text-align: center;
+
+}
+
+.resume .resume2 h1{
+    position:relative;
+    bottom:110px;
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color:rgb(243, 208, 10);
+    text-align: center;
+}
+.connaissance{
+    margin-top:30px;
+}
+.connaissance .connaissance1{
+    width:90%;
+    height:200px;
+    background-color: rgba(94, 95, 95,0.5);
+    margin-left:20px;
+    margin-top:30px;
+    padding:20px;
+}
+.connaissance .connaissance1 p{
+    margin-top:20px;
+}
+.connaissance .connaissance1 h2{
+    color:rgb(243, 208, 10);
+    text-transform: capitalize;
+}
+
+.reseaux{
+    width:100%;
+    height:300px;
+    background-color:aqua;
+    margin-top:20px;
+}
